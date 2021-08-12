@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.slideshow{
+    width: 800px;
+}
+
+header{
+    background-color: rgb(221, 221, 221);
+}
+
+.slick-prev:before, .slick-next:before{
+    font-size: 40px;
+}
+
+.slick-prev{
+    left: -45px;
+}
+
+.slick-dots li button::before{
+    font-size: 16px;
+    color: #129BE1;
+}
+
+.slick-dots li.slick-active button:before{
+    color: #129BE1;
+}
+
+.slick-dots{
+    bottom: 16px;
+}
